@@ -1,0 +1,26 @@
+body {margin: 0; background-image: url(2.jpg);}
+#head1 {background-color: black; color: white;}
+#head1 p {margin-top: 0; margin-bottom: 0; margin-left: 1%;}
+#head2 {background-color: white; opacity: 0.9; z-index: 1000000; position: sticky; top: 0;}
+#logo {display: inline-flex; margin-left: 1%;}
+ol {list-style: none; display: flex; float: right;}
+li {padding-right: 10px;}
+a {text-decoration: none;}
+a:active {color: black;}
+#kontakt {display: inline-block; text-align: center;}
+.deo {background-color: black; color: white; max-width: 50%; height: 500px;}
+.deo p, .deo h1 {display: block; margin: 5% auto; width: 50%; padding: 1%;}
+#jedan {float: left;}
+#dva {float: right;}
+#linkovi {width: 30%; border: 1px solid #000; color: white; background-color: #000; display: block; padding: 5px; margin: 5% auto; opacity: 0.8;}
+#foot {background-color: black; color: white;}
+#levo {margin-left: 15%; padding: 1px;}
+#levo p {margin-top: 0; margin-bottom: 0;}
+@media screen and (max-width: 780px) {
+    #kontakt {display: block;}
+    .deo {max-width: 100%;}
+    .deo p, .deo h1 {padding: 4%;}
+    #jedan, #dva {float: none;}
+    #linkovi {width: 80%;}
+    #planine {height: 400px;}
+}
