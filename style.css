@@ -30,3 +30,9 @@ a:active {color: black;}
     .levo, .img1, .img2 {display: block; margin-right: auto; margin-left: auto; float: none; width: 50%;}
     #centar {opacity: 0.7;}
 }
+@media screen and (max-width: 400px) {
+    #head2 {position: static;}
+    #logo {margin-left: 3.5%;}
+    .levo h1 {font-size: 30px;}
+    #centar {top: 35%;}
+}
