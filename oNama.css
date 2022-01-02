@@ -2,16 +2,14 @@ body {margin: 0; background-color: black;}
 #head1 {color: #fff;background-color: black; width: 100%;}
 #head1 p {margin-top: 0; margin-left: 1%; margin-bottom: 0;}
 #head2 {background-color: white; position: sticky; top: 0; opacity: 0.9; z-index: 100000;}
-#logo {display: inline-block; margin-left: 1%;}
+#logo {display: inline-flex; margin-left: 1%;}
 ol {display: flex; float: right; list-style: none;}
 li {padding-right: 10px;}
-a {text-decoration: none;}
+a {text-decoration: none; color: #000;}
 a:active {color: black;}
-#mi {position: relative;}
-#preko {position: absolute; background-color: white; width: 40%; top: 10%; left: 30%; height: 50%; padding: 10px; opacity: 0.9;}
-#preko h1 {text-align: center; margin-top: 35%; font-size: 50px; font-style: italic;}
-#preko2 {width: 20%; height: 20%; display: block; margin-left: auto; margin-right: auto; background-color: white; opacity: 0.9; transform: translate(0, -20%);}
-#galerija {display: flex; padding: 0 4px; overflow: auto;}
+#mi {text-align: center;}
+#preko h1 {color: white;}
+#galerija {display: flex; padding: 0 4px;}
 .kolone {flex: 25%; max-width: 33.3%;}
 .kolone img {width: 100%;}
 #slika {position: relative;}
@@ -19,11 +17,23 @@ a:active {color: black;}
 #centar {position: absolute; left: 70%; bottom: 13%; font-size: 40px;}
 #centar a {color: red;}
 #footer {background-color: black; color: white;}
-#levo3 {margin-left: 15%; margin-bottom: 1%;}
+#levo3 {margin-left: 15%; display: inline-block; margin-bottom: 1%;}
 #levo3 p {margin-top: 0; margin-bottom: 0;}
 #levo3 a {color: white;}
 @media screen and (max-width: 980px) {
     #preko h1 {margin-top: 25%;}
     #galerija {display: block;}
     .kolone {max-width: 100%;}
+}
+@media screen and (max-width: 400px) {
+    body {background-color: white;}
+    #head1 p {font-size: 15px;}
+    #head2 {position: static;}
+    #logo {margin-left: 3.5%;}
+    #li {padding: 0;}
+    #preko h1 {color: #000; padding-bottom: 50px;}
+    #galerija {padding: 0;}
+    .kolone img {display: block;}
+    #slika img {height: 400px;}
+    #levo3 {margin-left: 3%; margin-bottom: 3%;}
 }
