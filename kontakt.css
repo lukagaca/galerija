@@ -16,7 +16,7 @@ a:active {color: black;}
 #foot {background-color: black; color: white;}
 #levo {margin-left: 15%; padding: 1px;}
 #levo p {margin-top: 0; margin-bottom: 0;}
-#levo a {color: white}
+#levo a {color: white;}
 @media screen and (max-width: 780px) {
     #kontakt {display: block;}
     .deo {max-width: 100%;}
