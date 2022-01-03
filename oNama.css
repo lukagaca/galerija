@@ -17,7 +17,7 @@ a:active {color: black;}
 #centar {position: absolute; left: 70%; bottom: 13%; font-size: 40px;}
 #centar a {color: red;}
 #footer {background-color: black; color: white;}
-#levo3 {margin-left: 15%; display: inline-block; margin-bottom: 1%;}
+#levo3 {margin-left: 15%; display: inline-block; margin-bottom: 1%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 #levo3 p {margin-top: 0; margin-bottom: 0;}
 #levo3 a {color: white;}
 @media screen and (max-width: 980px) {
@@ -36,4 +36,6 @@ a:active {color: black;}
     .kolone img {display: block;}
     #slika img {height: 400px;}
     #levo3 {margin-left: 3%; margin-bottom: 3%;}
+    #levo3 h1 {font-size: 20px;}
+    #levo3 p {font-size: 15px;}
 }
