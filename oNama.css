@@ -17,7 +17,7 @@ a:active {color: black;}
 #centar {position: absolute; left: 70%; bottom: 13%; font-size: 40px;}
 #centar a {color: red;}
 #footer {background-color: black; color: white;}
-#levo3 {margin-left: 15%; display: inline-block; margin-bottom: 1%; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+#levo3 {margin-left: 15%; display: inline-block; margin-bottom: 1%;}
 #levo3 p {margin-top: 0; margin-bottom: 0;}
 #levo3 a {color: white;}
 @media screen and (max-width: 980px) {
