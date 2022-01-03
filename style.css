@@ -16,7 +16,7 @@ a {text-decoration: none; color: #000;}
 #centar a {color: red; font-size: 40px;}
 #foot {background-color: black; color: white;}
 #levo3 {margin-left: 15%; margin-bottom: 1%; display: inline-block;}
-#levo3 p {margin: 0;}
+#levo3 p {margin: 0; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 #levo3 a {color: white;}
 @media screen and (max-width: 900px) {
     .levo p {text-align: center;}
@@ -36,4 +36,6 @@ a {text-decoration: none; color: #000;}
     #sl {margin-top: 30px;}
     #centar {top: 35%;}
     #levo3 {margin-left: 3%; margin-bottom: 3%;}
+    #levo3 h1 {font-size: 20px;}
+    #levo3 p {font-size: 15px;}
 }
