@@ -32,7 +32,7 @@ a {text-decoration: none; color: #000;}
     #head2 {position: static;}
     #logo {margin-left: 3.5%;}
     .levo p {margin: 0 20px;}
-    .levo h1 {font-size: 30px;}
+    .levo h1 {font-size: 30px; margin: 3px;}
     #sl {margin-top: 150px;}
     #centar {top: 35%;}
     #levo3 {margin-left: 3%; margin-bottom: 3%;}
