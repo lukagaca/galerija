@@ -1,4 +1,4 @@
-body {margin: 0;}
+body {margin: 0; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
 #head1 {background-color: black; color: white;}
 #head1 p {margin-left: 1%; margin-top: 0; margin-bottom: 0;}
 #head2 {background-color: white; position: sticky; top: 0; z-index: 10000; opacity: 0.9;}
@@ -31,6 +31,7 @@ a {text-decoration: none; color: #000;}
     #head2 {position: static;}
     #logo {margin-left: 3.5%;}
     #li {padding: 0;}
+    #naslov {margin: 1px;}
     #centar {top: 35%;}
     #levo {margin-left: 3%; margin-bottom: 3%;}
     #levo h1 {font-size: 20px;}
