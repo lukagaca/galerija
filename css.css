@@ -1,4 +1,4 @@
-body {margin: 0; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+body {margin: 0; font-family: Verdana, Geneva, Tahoma, sans-serif;}
 #head1 {background-color: black; color: white;}
 #head1 p {margin-left: 1%; margin-top: 0; margin-bottom: 0;}
 #head2 {background-color: white; position: sticky; top: 0; z-index: 10000; opacity: 0.9;}
@@ -14,7 +14,7 @@ a {text-decoration: none; color: #000;}
 #drvo {display: block; margin-left: auto; margin-right: auto;}
 #sl {position: relative; text-align: center;}
 #centar {background-color: white; position: absolute; width: 100%; top: 50%; height: 60px; opacity: 0.8;}
-#centar a {color: red; font-size: 40px;}
+#centar a {color: rgb(204, 23, 23); font-size: 40px;}
 #foot {background-color: black; color: white;}
 #levo {margin-bottom: 1%; margin-left: 15%; display: inline-block;}
 #levo p {margin-top: 0; margin-bottom: 0;}
@@ -27,7 +27,7 @@ a {text-decoration: none; color: #000;}
     #centar a {font-size: 35px;}
 }
 @media screen and (max-width: 400px) {
-    #head1 p {font-size: 15px;}
+    p, a {font-size: 13px;}
     #head2 {position: static;}
     #logo {margin-left: 3.5%;}
     #li {padding: 0;}
@@ -35,5 +35,4 @@ a {text-decoration: none; color: #000;}
     #centar {top: 35%;}
     #levo {margin-left: 3%; margin-bottom: 3%;}
     #levo h1 {font-size: 20px;}
-    #levo p {font-size: 15px;}
 }
