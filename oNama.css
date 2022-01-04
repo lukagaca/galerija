@@ -1,4 +1,4 @@
-body {margin: 0; background-color: black;}
+body {margin: 0; background-color: black; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
 #head1 {color: #fff;background-color: black; width: 100%;}
 #head1 p {margin-top: 0; margin-left: 1%; margin-bottom: 0;}
 #head2 {background-color: white; position: sticky; top: 0; opacity: 0.9; z-index: 100000;}
